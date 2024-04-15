@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "UniVerso - Parthenope",
+    "slug": "UniVerso",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/play_store_512.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.salvatore.dipalo.universo"
+    },
+    "android": {
+      "package": "com.salvatore.dipalo.universo",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/play_store_512.png",
+        "backgroundColor": "#ffffff"
+      },
+      "androidStatusBar": {
+        "backgroundColor": "#356EFD",
+        "translucent": false
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-dev-launcher",
+        {
+          "launchModeExperimental": "most-recent"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fa5f315d-1f3a-489a-b705-33673b3ae975"
+      }
+    }
+  }
+}
